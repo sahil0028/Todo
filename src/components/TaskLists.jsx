@@ -27,7 +27,7 @@ const TaskLists = () => {
                     if(!elem.completed){
                         return(
                             <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
-                                <div className="task text-wrap flex-grow-1" style={{maxWidth:'70%',minWidth:'50%',wordBreak:'break-word'}}> {elem.task}</div>
+                                <div className="task text-wrap flex-grow-1" style={{maxWidth:'60%',minWidth:'50%',wordBreak:'break-word'}}> {elem.task}</div>
                                 <div className="btns">
                                     <button className=" mx-2 btn btn-danger" onClick={()=>handleDelete(index)}>Delete</button>
                                     <button className="btn btn-success" onClick={()=>{handleUpdate(index)}}>✔</button>
@@ -49,7 +49,7 @@ const TaskLists = () => {
                     if(elem.completed){
                         return(
                             <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
-                                <div className="task text-wrap" style={{width:'70%', wordBreak:'break-word'}}> {elem.task}</div>
+                                <div className="task text-wrap" style={{width:'60%', wordBreak:'break-word'}}> {elem.task}</div>
                                 <div className="btns">
                                     <button className=" mx-2 btn btn-danger" onClick={()=>handleDelete(index)}>Delete</button>
                                     <button className="btn btn-success" onClick={()=>{handleUpdate(index)}}>❌</button>

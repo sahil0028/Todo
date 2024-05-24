@@ -10,6 +10,12 @@ export default configureStore({
   }
 })
 
+/**
+ * Configures and returns the Redux store for the application.
+ * The store is created using the `createStore` function from the Redux library,
+ * and is configured with the root reducer and any middleware.
+ * @returns {Object} The configured Redux store.
+ */
 
 
 
